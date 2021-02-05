@@ -1,0 +1,8 @@
+name: "Todo to Issue"
+description: "Converts TODOs to Github issues"
+runs:
+  using: "composite"
+  steps:
+    - id: run-the-action
+      run: kotlin ${{github.action_path}}/action.main.kts
+      shell: bash

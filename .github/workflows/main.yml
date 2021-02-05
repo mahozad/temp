@@ -1,0 +1,11 @@
+name: Test the action
+
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: fwilhe2/setup-kotlin@main
+        with:
+          version: 1.4.30
+      - uses: mahozad/temp@master
