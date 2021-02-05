@@ -1,8 +1,12 @@
 name: "Todo to Issue"
+author: "Mahdi Hosseinzadeh"
 description: "Converts TODOs to Github issues"
+branding:
+  icon: "info"
+  color: "green"
 runs:
   using: "composite"
   steps:
-    - id: run-the-action
-      run: kotlin ${{github.action_path}}/action.main.kts
+    - id: main-step
+      run: kotlin $GITHUB_ACTION_PATH/action.main.kts
       shell: bash
