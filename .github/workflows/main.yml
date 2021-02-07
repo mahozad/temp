@@ -8,4 +8,4 @@ jobs:
       - uses: fwilhe2/setup-kotlin@main
         with:
           version: 1.4.30
-      - uses: mahozad/temp@master
+      - uses: mahozad/todo-to-issue@master
