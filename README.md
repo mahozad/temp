@@ -1,3 +1,7 @@
+# Github Action Written in Kotlin (Scripting)
+The script file is [action.main.kts](action.main.kts).  
+See [the example workflow](.github/workflows/main.yml) for how to use the action.
+
 ### Adding Test Sources in IntelliJ
 
 Created the *test* directory and then in IntelliJ marked it as *Test Sources Root*.  
