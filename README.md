@@ -1,3 +1,11 @@
+### Adding Test Sources in IntelliJ
+
+Created the *test* directory and then in IntelliJ marked it as *Test Sources Root*.  
+Then in *Project Structure* 🡲 *Modules* 🡲 *Dependencies* 🡲 *+* 🡲 *Library...* 🡲
+*New Library...* 🡲 *From Maven...* 🡲 Search `org.junit.jupiter:junit-jupiter-api:5.7.0`
+🡲 *OK* 🡲 Select *Add Selected* 🡲 And set the scope to *Test*.
+
+---
 
 ### Docker RUN vs CMD vs ENTRYPOINT
 https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
