@@ -1,3 +1,9 @@
+[Structural diff](https://stackoverflow.com/q/14376370)
+Git diff algorithms:
+ + [1](https://link.springer.com/article/10.1007/s10664-019-09772-z)
+ + [2](https://medium.com/@gabrielschade/how-git-diff-works-a-sample-with-f-af3e3737963)
+ + [3](https://www.researchgate.net/publication/330955835_How_Different_Are_Different_diff_Algorithms_in_Git_Use_--histogram_for_Code_Changes)
+
 # Github Action Written in Kotlin (Scripting)
 The script file is [action.main.kts](action.main.kts).  
 See [the example workflow](.github/workflows/main.yml) for how to use the action.
